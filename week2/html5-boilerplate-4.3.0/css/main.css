@@ -97,9 +97,25 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   body {
+	background-color: #ecf0f1;
+   }
    
-   h1, p {
+   h1, p , ul{
 	margin: 0;
+	padding: 0;
+   }
+   
+   ul {
+	list-style-type: none;
+   }
+   
+   #feed li {
+	padding: .5em;
+	border: 1px solid #e3e3e3;
+	border-radius: 4px;
+	background: #fff;
+	margin-bottom: 1em;
    }
    
    header {
@@ -114,15 +130,16 @@ textarea {
    }
    
    #main-feed {
-	background-color: #ecf0f1;
+	padding: 2em;
    }
 
    .toggle-button {
 	display: inline-block;
-	height: 100px;
-	width: 100px;
+	padding: 15px 20px;
 	background-color: #ccc;
    }
+   
+   
 
 
 
