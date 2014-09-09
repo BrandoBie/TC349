@@ -97,10 +97,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   div {
-   
+   header {
+	background-color: #2980b9;
+	padding: .5em 0;
+	
    }
 
+   header h1 {
+	margin: 0;
+   }
 
 
 
