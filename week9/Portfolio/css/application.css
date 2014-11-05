@@ -1,0 +1,115 @@
+/* line 1, ../sass/components/_footer.scss */
+#footer {
+  background-color: #86708F;
+  clear: both;
+}
+
+/* line 6, ../sass/components/_footer.scss */
+#footer-table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-spacing: 20px;
+}
+
+/* line 15, ../sass/components/_footer.scss */
+#footer-table td {
+  background: #482955;
+  width: 50%;
+}
+
+/* line 20, ../sass/components/_footer.scss */
+#footer-table tr {
+  height: 200px;
+}
+
+/* line 4, ../sass/components/_header.scss */
+#wrap {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 10, ../sass/components/_header.scss */
+#header {
+  background-color: #6c5177;
+  text-align: center;
+  -webkit-border-radius: 4px 4px;
+  -moz-border-radius: 4px 4px;
+  -ms-border-radius: 4px 4px;
+  -o-border-radius: 4px 4px;
+  border-radius: 4px 4px;
+  clear: both;
+}
+
+/* line 17, ../sass/components/_header.scss */
+#header h1 {
+  margin: 0px;
+  padding: 100px 0px;
+}
+
+/* line 3, ../sass/components/_grid.scss */
+.media-grid {
+  list-style-type: none;
+  background: #846f8d;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 10, ../sass/components/_grid.scss */
+.media-grid li {
+  -webkit-transition-property: width;
+  -moz-transition-property: width;
+  -o-transition-property: width;
+  transition-property: width;
+  background: #482955;
+  float: left;
+  height: 200px;
+  width: 25%;
+  position: relative;
+}
+
+/* line 19, ../sass/components/_grid.scss */
+.media-grid li:hover {
+  width: 30%;
+  float: left;
+}
+
+/* line 24, ../sass/components/_grid.scss */
+.media-grid img {
+  width: 100%;
+}
+
+/* line 28, ../sass/components/_grid.scss */
+.media-grid li:nth-child(even) {
+  background: #846f8d;
+}
+
+/* line 32, ../sass/components/_grid.scss */
+.media-grid.media-grid-sm li {
+  width: 10%;
+  height: 100px;
+}
+
+/* line 1, ../sass/components/_body.scss */
+#body {
+  background-color: #6c5177;
+  clear: both;
+  margin: 0px;
+  padding-top: 50px;
+}
+
+/* line 8, ../sass/components/_body.scss */
+#hero {
+  width: 700px;
+  background-color: #482955;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 15, ../sass/components/_body.scss */
+#hero img {
+  width: 700px;
+}
