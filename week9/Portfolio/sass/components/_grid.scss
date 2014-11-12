@@ -8,7 +8,7 @@
 }
 
 .media-grid li {
-  @include transition-property(width);
+  @include transition(all 0.5s); 
   background: #482955;
   float: left;
   height: 200px;
@@ -17,8 +17,7 @@
 }
 
 .media-grid li:hover {
-	width: 30%;
-	float: left;
+	@include transform(rotate(360deg)); 
 }
 
 .media-grid img {

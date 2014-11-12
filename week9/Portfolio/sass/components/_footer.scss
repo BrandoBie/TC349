@@ -13,8 +13,15 @@
 }
 
 #footer-table td {
+	text-align: left;
+	vertical-align: top;
 	background: #482955;
 	width: 50%;
+}
+
+#footer-table p {
+	margin-left: 20px;
+	color: white;
 }
 
 #footer-table tr {
