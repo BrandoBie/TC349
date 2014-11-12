@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 @import 'compass';
+=======
+@import "compass/utilities";
+>>>>>>> 9d49b3c390159874d99d778765d95d025a6c33ca
 @import 'components/_base.scss';
 @import 'components/_navigation.scss';
 @import 'components/_footer.scss';
+@import 'components/_header.scss';
+@import 'components/_grid.scss';
+@import 'components/_body.scss';
+@import "compass/css3/border-radius";

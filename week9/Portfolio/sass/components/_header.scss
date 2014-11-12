@@ -1,0 +1,20 @@
+@import "compass/utilities";
+@import "compass/css3/border-radius";
+
+#wrap {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	background-color: #6c5177; 
+	text-align: center;
+	@include border-radius(4px 4px);
+	clear: both;
+}
+
+#header h1 {
+	margin: 0px;
+	padding: 100px 0px;
+}
