@@ -1,0 +1,94 @@
+/* line 1, ../sass/components/_body.scss */
+body {
+  background-color: black;
+}
+
+/* line 5, ../sass/components/_body.scss */
+#container {
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../img/climb_right.jpg) right 0 no-repeat, url(../img/climb_left.jpg) left 0 no-repeat;
+  background-color: black;
+}
+
+/* line 14, ../sass/components/_body.scss */
+#wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  background-color: white;
+}
+
+/* line 21, ../sass/components/_body.scss */
+p {
+  font-size: 1.2em;
+}
+
+/* line 25, ../sass/components/_body.scss */
+.intro img {
+  padding-right: 20px;
+}
+
+/* line 29, ../sass/components/_body.scss */
+.intro {
+  padding: 20px;
+}
+
+/* line 33, ../sass/components/_body.scss */
+.intro li {
+  font-size: 1.2em;
+}
+
+/* line 37, ../sass/components/_body.scss */
+#table-slider {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+}
+
+/* line 43, ../sass/components/_body.scss */
+#centered {
+  width: 80%;
+}
+
+/* line 1, ../sass/components/_header.scss */
+#nav-bar {
+  text-align: left;
+  background-color: #151518;
+}
+
+/* line 6, ../sass/components/_header.scss */
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 12, ../sass/components/_header.scss */
+#nav-bar li {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  display: inline;
+}
+
+/* line 20, ../sass/components/_header.scss */
+#nav-bar a:link {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  background-color: 151518;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 29, ../sass/components/_header.scss */
+#nav-bar a:visited {
+  color: white;
+}
+
+/* line 33, ../sass/components/_header.scss */
+#nav-bar li:hover {
+  background-color: #343439;
+}

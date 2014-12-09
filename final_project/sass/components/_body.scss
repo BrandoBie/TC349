@@ -1,0 +1,45 @@
+body {
+	background-color: black;
+}
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	background:
+	url(../img/climb_right.jpg) right 0 no-repeat,
+	url(../img/climb_left.jpg) left 0 no-repeat;
+	background-color: black;
+}
+
+#wrap {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	background-color: white;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+.intro img {
+	padding-right: 20px;
+}
+
+.intro {
+	padding: 20px;
+}
+
+.intro li {
+	font-size: 1.2em;
+}
+
+#table-slider {
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 25px;
+}
+
+#centered {
+	width: 80%;
+}
