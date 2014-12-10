@@ -3,6 +3,10 @@ body {
   background-color: black;
 }
 
+img {
+	float: left;
+}
+
 /* line 5, ../sass/components/_body.scss */
 #container {
   margin-left: auto;
@@ -91,4 +95,18 @@ p {
 /* line 33, ../sass/components/_header.scss */
 #nav-bar li:hover {
   background-color: #343439;
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px){
+	#wrap {
+		width: 100%;
+	}
+	
+	#nav-bar li {
+		display: block;
+	}
+	
+	img {
+		width: 100%;
+	}
 }
